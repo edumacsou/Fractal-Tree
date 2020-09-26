@@ -1,43 +1,67 @@
-<Style> h2 {display:inline;} </Style>
-
 # Visual fractal tree
 
-<details><summary><h2> 1. What is this repository?</h2></summary>
-<p>
+<details><summary><b> 1. What is this repository?</b></summary></br>
+
 This is a python visual program that uses recursion to construct a colored fractal tree.
 
-
 ---
-</p> </details>
+</details>
 
-<details><summary><h2> 2. What is a fractal?</h2></summary>
-<p>
+<details><summary><b> 2. What is a fractal?</b></summary></br>
+
 A fractal is a figure with a repetitive pattern, a small part of it is similar to the entire figure, what is called self-similar.
 This patterns can be found in nature, like in lightning bolts, snowflake, Romanesco broccoli, frozen crystals and more.
 
 ---
-</p> </details>
+</details>
 
-<details><summary><h2> 3. How to run the fractal tree?</h2></summary>
-<p>
-You will need the Python3 installed, that can be found [here](https://www.python.org/downloads).
+<details>
+<summary><b> 3. How to run the fractal tree?</b></summary></br>
 
-
----
-</p> </details>
-
-<details><summary><h2> 4. How to use it?</h2></summary>
-<p>
-
-
----
-</p> </details>
-
-<details><summary><h2> 5. Concepts used</h2></summary>
-<p>
-
+1. You will need the Python3 installed, that can be found [here](https://www.python.org/downloads).
+2. Download the file "Fractal-Tree.py" to a folder of your choice.
+3. Open your founder by terminal with this command (use the path to your folder):
+    ```
+    cd C:\Users\MyName\Documents\Myfolder\
+    ```
+4. Run the program with Python3:
+    ```
+    python Fractal-Tree.py
+    ```
 
 ---
-</p> </details>
+</details>
+
+<details><summary><b> 4. How to edit and use it?</b></summary></br>
+
+You can personalize your tree changing some variables in code.
+The variables, their functions and line in code are like following.</br>
+
+Variable | Description | Recommendations | Line
+---------| ----------- | --------------- | ----
+branches | How many times a branch will diverge in new branches | Use a number between 9 and 15 | 11  
+size | The length of the initials branches | High values will result in a tree bigger than the screen size | 12 |  
+color | The branches' final color in RGB | Each value must be between 0 and 255 | 13 |  
+l_angle_rate | Left branch relative angle  | Value in degrees, if the left and right angles are different, the tree will be asymmetric | 34 |  
+r_angle_rate | Right branch relative angle | Value in degrees, if the left and right angles are different, the tree will be asymmetric | 35 |  
+size_rate | Decreasing rate of the branches' size | Value between 0 and 1 will result in a decreasing size, 1 will result in a static size and values bigger than 1 will result in a crescent size of the branches | 36 
+</br>
+
+The default values will generate this symmetrical tree:
+![Blue Tree](blue-tree.PNG)
+
+---
+</details>
+
+<details><summary><b> 5. Concepts used</b></summary></br>
+
++ Libraries imports
+  + Graphics
+  + Math
++ Graphical programming
++ Recursion
+
+---
+</details>
 
 
